@@ -1,0 +1,15 @@
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\GaurdiansOfTheCode.exe
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\GaurdiansOfTheCode.deps.json
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\GaurdiansOfTheCode.runtimeconfig.json
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\GaurdiansOfTheCode.dll
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\GaurdiansOfTheCode.pdb
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.AssemblyInfoInputs.cache
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.AssemblyInfo.cs
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.csproj.CoreCompileInputs.cache
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.sourcelink.json
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.dll
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\refint\GaurdiansOfTheCode.dll
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.pdb
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.genruntimeconfig.cache
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\ref\GaurdiansOfTheCode.dll
