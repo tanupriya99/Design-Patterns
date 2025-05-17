@@ -10,6 +10,10 @@ namespace GaurdiansOfTheCode
         private int _health;
         private readonly int _level;
         public int Health { get => _health; set => _health = value; }
+        public int Overtimedamage { get; set; }
+        public int Armor { get; set; }
+        public bool Paralyzed { get; set; }
+        public int ParalyzedFor { get; set; }
 
         public int Level => _level;
 

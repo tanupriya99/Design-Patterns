@@ -11,6 +11,7 @@ namespace GaurdiansOfTheCode
         public Gameboard()
         {
             _player = PrimaryPlayer.Instance;
+            _player.Weapon = new Sword(12, 8);  //this is actual loose couple in action
         }
 
         public void PlayArea(int lvl)
@@ -38,7 +39,13 @@ namespace GaurdiansOfTheCode
 
             foreach (var enemy in enemies)
             {
-                System.Console.WriteLine($"{enemy.GetType()}, health = {enemy.Health}, level = {enemy.Level}");
+                while (enemy.Health > 0 || _player.Health > 0)
+                {
+                    _player.Weapon.Use(enemy);
+                    enemy.Attack(_player);
+                    System.Console.WriteLine($"{enemy.GetType()}, health = {enemy.Health}, level = {enemy.Level}");
+                }
+                
             }
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GaurdiansOfTheCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850bd3b54c6d7e9ce8de06c8a61a61028bae97d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+555da5b047d10b9d93cc794044887444731a7243")]
 [assembly: System.Reflection.AssemblyProductAttribute("GaurdiansOfTheCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GaurdiansOfTheCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

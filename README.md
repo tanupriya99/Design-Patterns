@@ -17,3 +17,10 @@ Singleton Pattern
 
 --> Factory Pattern : A combination of the Single Responsibility and Open/Closed Principles
 GameBoard class shouldn't have to know how to instantitate the enemies or what enemies to create (Single Responsibility).
+
+--> Loose Coupling : Software parts that communicate with each other have little to no knowledge of each other's actual implementation. Software components that are loosly coupled are called Black Boxes.
+Benefits:
+1) Easier to work with large projects
+2) Swap implementations
+3) Testability
+4) Components grow independently
