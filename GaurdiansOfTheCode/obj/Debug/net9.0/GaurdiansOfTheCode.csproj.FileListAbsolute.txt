@@ -13,3 +13,7 @@ C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\
 C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.pdb
 C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.genruntimeconfig.cache
 C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\ref\GaurdiansOfTheCode.dll
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\Common.dll
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\bin\Debug\net9.0\Common.pdb
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\GaurdiansOfTheCode.csproj.AssemblyReference.cache
+C:\Users\tanup\Documents\Design_Patterns\Design-Patterns\GaurdiansOfTheCode\obj\Debug\net9.0\Gaurdian.7B0B48BC.Up2Date
