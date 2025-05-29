@@ -2,7 +2,7 @@
 
 namespace Api.Services
 {
-    public interface ICardsService
+    public interface ICardService
     {
         IEnumerable<Card> FetchCards();
     }

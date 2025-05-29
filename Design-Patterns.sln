@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaurdiansOfTheCode", "Gaurd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B4FA235D-08EF-4B99-BBFC-CFFB7AFF1339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "NewApp\Api.csproj", "{6EEB1276-C207-4FAA-9395-1AC4A4C87DD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{A51286B0-5910-454B-A894-5B0F119462ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{B4FA235D-08EF-4B99-BBFC-CFFB7AFF1339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FA235D-08EF-4B99-BBFC-CFFB7AFF1339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FA235D-08EF-4B99-BBFC-CFFB7AFF1339}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EEB1276-C207-4FAA-9395-1AC4A4C87DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EEB1276-C207-4FAA-9395-1AC4A4C87DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EEB1276-C207-4FAA-9395-1AC4A4C87DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EEB1276-C207-4FAA-9395-1AC4A4C87DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51286B0-5910-454B-A894-5B0F119462ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51286B0-5910-454B-A894-5B0F119462ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51286B0-5910-454B-A894-5B0F119462ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51286B0-5910-454B-A894-5B0F119462ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

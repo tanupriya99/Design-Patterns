@@ -8,7 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<ICardsService, CardsService>();
+//builder.Services.AddSingleton<ICardService, CardService>();
+builder.Services.AddTransient<ICardService, CardService>();
 
 var app = builder.Build();
 
@@ -19,8 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
+//app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();

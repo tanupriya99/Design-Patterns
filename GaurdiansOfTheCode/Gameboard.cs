@@ -1,7 +1,9 @@
+using Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace GaurdiansOfTheCode
 {
@@ -14,11 +16,14 @@ namespace GaurdiansOfTheCode
             _player.Weapon = new Sword(12, 8);  //this is actual loose couple in action
         }
 
-        public void PlayArea(int lvl)
+        public async Task PlayArea(int lvl)
         {
             //Spawn some enemies
             if (lvl == 1)
             {
+                _player.Cards = (await FetchCards()).ToArray();
+                Console.WriteLine("Ready to play Level 1");
+                Console.ReadKey();
                 PlayFirstLevel();
             }
         }
@@ -48,5 +53,15 @@ namespace GaurdiansOfTheCode
                 
             }
         }
+
+        private async Task<IEnumerable<Card>> FetchCards()
+        {
+            using (var http = new HttpClient())
+            {
+                var cardJson = await http.GetStringAsync("http://localhost:5126/api/Cards");
+                return JsonConvert.DeserializeObject<IEnumerable<Card>>(cardJson);
+            }
+        }
     }
+    
 }

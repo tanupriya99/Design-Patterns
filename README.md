@@ -24,3 +24,8 @@ Benefits:
 2) Swap implementations
 3) Testability
 4) Components grow independently
+
+--> Singleton vs Transient vs Scoped
+1) Singleton: The service is instatiated once and used throughout the application
+2) Transient: A new service is intantiated every time we request it
+3) Scoped: A new instance created for every http request

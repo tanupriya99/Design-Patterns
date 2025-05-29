@@ -1,3 +1,4 @@
+using Common;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,6 +19,8 @@ namespace GaurdiansOfTheCode
         private PrimaryPlayer(){ }
 
         public IWeapon Weapon {get; set;}  //we use IWeapon to acheive loose coupling
+
+        public Card[] Cards { get; set; }
         
         static PrimaryPlayer(){
             _instance = new PrimaryPlayer()
