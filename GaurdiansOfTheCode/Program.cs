@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Threading.Tasks;
 
 namespace GaurdiansOfTheCode
@@ -10,12 +11,12 @@ namespace GaurdiansOfTheCode
             //System.Console.WriteLine($"{player.Name} - {player.Level}");
             try
             {
-                TestApiConnection().Wait();
+                //TestApiConnection().Wait();
+                TestDecorators();
+                //Gameboard board = new Gameboard();
+                //board.PlayArea(1);
 
-                Gameboard board = new Gameboard();
-                board.PlayArea(1);
-
-                Console.ReadKey();
+                //Console.ReadKey();
             }
             catch
             {
@@ -55,6 +56,16 @@ namespace GaurdiansOfTheCode
                 throw new Exception("Failed to connect to server");
             }
             
+        }
+
+        private static void TestDecorators()
+        {
+            Card soldier = new Card("Soldier", 25, 20);
+            soldier = new AttackDecorator(soldier, "Sword", 15);
+            soldier = new AttackDecorator(soldier, "Amulet", 5);
+            soldier = new DefenseDecorator(soldier, "Helmet", 10);
+            soldier = new DefenseDecorator(soldier, "Heavy Armor", 45);
+            Console.WriteLine($"Final Stats: {soldier.Attack}/{soldier.Defense}");
         }
     }
 }

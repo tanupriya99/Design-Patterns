@@ -29,3 +29,10 @@ Benefits:
 1) Singleton: The service is instatiated once and used throughout the application
 2) Transient: A new service is intantiated every time we request it
 3) Scoped: A new instance created for every http request
+
+--> Structural Design Patterns:
+1. Decorator Pattern
+2. Adapter Pattern
+3. Facade Pattern
+4. Composite Pattern
+5. Proxy Pattern
